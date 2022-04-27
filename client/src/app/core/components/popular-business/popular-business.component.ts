@@ -9,19 +9,19 @@ export class PopularBusinessComponent implements OnInit {
 
   business = [
     {
+      name: 'KFC',
+      logo: 'assets/images/business/kfc-logo.png',
+      img: '../../../../assets/images/business/kfc.png'
+    },
+    {
       name: 'PIZZA HUT',
-      logo: 'assets/images/landingPage/pizza-hut-logo.png',
-      img: '../../../../assets/images/landingPage/pizza-hut.png'
+      logo: '../../../../assets/images/business/pizza-hut-logo.png',
+      img: '../../../../assets/images/business/pizza-hut.png'
     },
     {
-      name: 'BURGER KING',
-      logo: '../../../../assets/images/landingPage/burger-king-logo.png',
-      img: '../../../../assets/images/landingPage/burger-king.png'
-    },
-    {
-      name: 'POPEYES',
-      logo: '../../../../assets/images/landingPage/popeyes-logo.png',
-      img: '../../../../assets/images/landingPage/popeyes.png'
+      name: 'McDonalds',
+      logo: '../../../../assets/images/business/mcdonalds-logo.png',
+      img: '../../../../assets/images/business/mcdonalds.png'
     }
   ]
 

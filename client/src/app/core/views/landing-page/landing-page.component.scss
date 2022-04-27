@@ -13,14 +13,14 @@
             text-align: center;
             margin-bottom: 2em;
             font-size: 21px;
-            color: $dark-main-color;
+            color: #6628AD;
             .highlight{
-                color: $main-color;
+                color:#6628AD;
             }
         }
         button{
             padding: 0.8em;
-            background-color: $main-color;
+            background-color: #6628AD;
             color: white;
             font-size: 21px;
             font-weight: 500;
@@ -63,7 +63,7 @@
 }
 
 .steps{
-    background-color: $main-color;
+    background-color: #6628AD;
     padding-top: 1em;
     padding-bottom: 2em;
     display: flex;

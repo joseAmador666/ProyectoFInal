@@ -18,7 +18,7 @@
                 display: flex;
                 justify-content: space-between;
                 .price{
-                    color: $main-color;
+                    color: #9F4AE1;
                 }
             }
             .business-name{
@@ -36,7 +36,7 @@
         align-items: center;
         border-radius: 0 10px 0 0;
         
-        background-color: $dark-main-color;
+        background-color: #9F4AE1;
         color: white;
         width: 2.5em;
         height: 2.5em;
@@ -44,6 +44,6 @@
         top: 0em
     }
     .remove-btn:active{
-        background-color: $dark-main-color-light;
+        background-color: #6628AD;
     }
 }

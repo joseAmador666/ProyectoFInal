@@ -7,12 +7,12 @@
 .navbar-item{
     
     svg{
-        fill: $dark-main-color;
+        fill: white;
     }
 }
 
 .navbar-item.active{
     svg{
-        fill: $main-color;
+        fill: black;
     }
 }
