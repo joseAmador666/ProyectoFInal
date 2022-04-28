@@ -18,13 +18,13 @@
                 display: flex;
                 justify-content: space-between;
                 .price {
-                    color: $main-color;
+                    color: #6628AD;
                 }
             }
             .location {
                 font-size: 14px;
                 font-weight: 400;
-                color: $gray-secondary;
+                color: #6628AD;
             }
         }
         .delivery-info {
@@ -36,6 +36,8 @@
                 object-fit: contain;
                 width: 4em;
                 height: 1.5em;
+                color: #8333DE
+                ;
             }
             .delivery-name {
                 color: black;
@@ -43,7 +45,8 @@
                 font-size: 14px;
             }
             .delivery-state {
-                background-color: $dark-main-color;
+                background-color: #8333DE
+                ;
                 color: white;
                 padding: 0.2em 1em;
                 text-align: center;

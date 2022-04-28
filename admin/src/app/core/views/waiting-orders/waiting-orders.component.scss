@@ -5,7 +5,7 @@
     .title-order-list {
         font-size: 18px;
         font-weight: 500;
-        color: $dark-main-color;
+        color: #6628AD;
         margin-bottom: 2em;
     }
 }
@@ -29,7 +29,7 @@
                 display: flex;
                 justify-content: space-between;
                 .price {
-                    color: $main-color;
+                    color: #6628AD;
                 }
             }
             .location {
@@ -54,7 +54,8 @@
                 font-size: 14px;
             }
             .delivery-state {
-                background-color: $dark-main-color;
+                background-color: #8333DE
+                ;
                 color: white;
                 padding: 0.2em 1em;
                 text-align: center;

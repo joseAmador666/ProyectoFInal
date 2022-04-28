@@ -6,7 +6,7 @@ img{
 }
 
 .item:hover{
-    background-color: $dark-main-color-lighter;
+    background-color: #6628AD;
     border-radius: 5px;
 }
 
@@ -15,11 +15,11 @@ img{
 }
 
 .active{
-    background-color: $main-color;
+    background-color: black;
     border-radius: 5px;
 }
 
 .item.active:hover{
-    background-color: $main-color;
+    background-color: #6628AD;
     border-radius: 5px;
 }

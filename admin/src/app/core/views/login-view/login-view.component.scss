@@ -7,6 +7,9 @@
   .login{
       width: 40%;
       float: left;
+      color: bisque;
+      
+     
   }
 
   form{
@@ -14,16 +17,22 @@
       margin-left: 100px;
       margin-right: 50px;
       margin-top: 30%;
-      
+      color: azure;
+      background-color: #8333DE;
   }
 .btn-login{
-    background-color: $main-color;
-    color: white;
-    margin-left: 9em;
+    background-color: #D813D5;
+    color: aliceblue;
+    margin-left: 7em;
     margin-top: 4em;
+
     width: 30%;
     border-radius: 3px;
 }  
+
+.body{
+    background-image: url("burger-background.jpg");
+}
 
 .back{
     width: 60%;
@@ -33,15 +42,7 @@
         opacity: 0.8;
     }
     
-    .elip{
-        padding: 0.3em 0;
-        position: absolute;
-        left: 65%;
-        right: 2px;
-        bottom: 3px;
-        top: 25%;
-        opacity: 0.95;
-    }
+ 
     
     .logo{
         padding: 0.3em 0;
