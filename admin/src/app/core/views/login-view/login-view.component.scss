@@ -1,0 +1,64 @@
+@import 'variables';
+
+ .login-full-width {
+    width: 100%;
+  }
+
+  .login{
+      width: 40%;
+      float: left;
+      color: bisque;
+      
+     
+  }
+
+  form{
+      width: 60%;
+      margin-left: 100px;
+      margin-right: 50px;
+      margin-top: 30%;
+      color: azure;
+      background-color: #8333DE;
+  }
+.btn-login{
+    background-color: #D813D5;
+    color: aliceblue;
+    margin-left: 7em;
+    margin-top: 4em;
+
+    width: 30%;
+    border-radius: 3px;
+}  
+
+.body{
+    background-image: url("burger-background.jpg");
+}
+
+.back{
+    width: 60%;
+    float: left;
+
+    .back-img{
+        opacity: 0.8;
+    }
+    
+ 
+    
+    .logo{
+        padding: 0.3em 0;
+        position: absolute;
+        left: 67.2%;
+        right: 2px;
+        top: 29%;
+    }
+
+    p{
+        font-size: 24px;
+        padding: 0.3em 0;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        color: white;
+    }
+}
+

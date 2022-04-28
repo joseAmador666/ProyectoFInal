@@ -1,0 +1,18 @@
+@import 'variables';
+
+:host{
+    display: block;
+}
+
+.navbar-item{
+    
+    svg{
+        fill: white;
+    }
+}
+
+.navbar-item.active{
+    svg{
+        fill: black;
+    }
+}

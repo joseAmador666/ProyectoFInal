@@ -1,0 +1,35 @@
+ <div class="landing-page-view view-pad">
+
+    <app-header></app-header>
+    <div class="landing-header">
+      
+        <div class="branding-text">
+           QUE NECESITAS
+        </div>
+        <div>
+            <button>Ver mas categorias</button>
+        </div>
+    </div>
+  
+
+    <div class="categories-trend">
+        <div class="title-trend">
+            <div class="title" style="color: #6628AD;">CATEGORIAS </div>
+           
+            <div class="line"></div>
+        </div>
+        <div class="categories-items">
+            <app-category  *ngFor="let category of categories" name={{category.name}} icon={{category.icon}} ></app-category>            
+        </div>
+
+    </div>
+    
+ </div>
+
+ 
+<div class="view-pad">
+    <app-popular-business></app-popular-business>
+</div>
+
+<app-footer></app-footer>
+ 

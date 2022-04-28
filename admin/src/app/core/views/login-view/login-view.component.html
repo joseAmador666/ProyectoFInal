@@ -1,0 +1,29 @@
+<app-header></app-header>
+<body class="body">
+    
+    <div >
+  
+        <div class="login" >
+   
+            <form [formGroup]="adminForm" (submit)="login()" >
+                <p style="color: white ;">iniciar sesion </p>
+                <mat-form-field class="login-full-width" >
+                    <mat-label>Correo</mat-label>
+                    <input formControlName="email" matInput placeholder="myemail@gmail.com" type="email" required>
+                </mat-form-field>
+    
+                <mat-form-field class="login-full-width">
+                    <mat-label>Contraseña</mat-label>
+                    <input formControlName="password" matInput placeholder="password" type="password" required>
+                </mat-form-field>
+    
+                <button class="btn-login" type="submit" (click)="login()" mat-raised-button color="primary" >Acceder</button>
+            </form>
+        </div>
+        <div class="back">
+        
+            <img src="assets/icons/login/login-logo.svg" alt="" class="logo">
+            <p style="margin-left: 250px; margin-top: 30px;"><b>ENH ADMINISTRACION</b></p>
+        </div>
+    </div>
+</body>
